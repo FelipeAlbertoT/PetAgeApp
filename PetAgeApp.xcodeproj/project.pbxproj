@@ -12,6 +12,7 @@
 		C110E5362047836600CE6772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C110E5342047836600CE6772 /* Main.storyboard */; };
 		C110E5382047836600CE6772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C110E5372047836600CE6772 /* Assets.xcassets */; };
 		C110E53B2047836600CE6772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C110E5392047836600CE6772 /* LaunchScreen.storyboard */; };
+		C171D5D02048425B00BE2277 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = C171D5CF2048425B00BE2277 /* cachorro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C110E5372047836600CE6772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C110E53A2047836600CE6772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C110E53C2047836600CE6772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C171D5CF2048425B00BE2277 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C110E52F2047836600CE6772 /* PetAgeApp */ = {
 			isa = PBXGroup;
 			children = (
+				C171D5CF2048425B00BE2277 /* cachorro.png */,
 				C110E5302047836600CE6772 /* AppDelegate.swift */,
 				C110E5322047836600CE6772 /* ViewController.swift */,
 				C110E5342047836600CE6772 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C171D5D02048425B00BE2277 /* cachorro.png in Resources */,
 				C110E53B2047836600CE6772 /* LaunchScreen.storyboard in Resources */,
 				C110E5382047836600CE6772 /* Assets.xcassets in Resources */,
 				C110E5362047836600CE6772 /* Main.storyboard in Resources */,

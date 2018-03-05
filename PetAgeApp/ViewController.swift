@@ -10,16 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var inputAge: UITextField!
+    @IBOutlet weak var resultAge: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func clickShowAge(_ sender: Any) {
+        if let realAge = Int(inputAge.text!) {
+            resultAge.text = String(realAge * 7)
+        }
     }
-
-
+    
 }
 
